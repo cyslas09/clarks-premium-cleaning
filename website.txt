@@ -1,0 +1,111 @@
+html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clark's Premium Commercial Cleaning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background: #b8860b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #000;
+            padding: 10px;
+        }
+        nav a {
+            color: #b8860b;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: #b8860b;
+            color: #000;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service-box {
+            background: #222;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            width: 300px;
+        }
+        footer {
+            background: #b8860b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clark's Premium Commercial Cleaning</h1>
+        <p>Reliable, Professional, and Top-Quality Cleaning Services</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Clark’s Premium Commercial Cleaning is a professional, high-end cleaning company specializing in corporate offices, luxury retail spaces, medical facilities, and high-traffic commercial properties. We use state-of-the-art cleaning technology, eco-friendly products, and highly trained staff to deliver superior service.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Office Cleaning</h3>
+                <p>Regular cleaning and sanitation for offices to maintain a professional environment.</p>
+            </div>
+            <div class="service-box">
+                <h3>Industrial Cleaning</h3>
+                <p>Heavy-duty cleaning services for warehouses and industrial facilities.</p>
+            </div>
+            <div class="service-box">
+                <h3>Medical Facility Cleaning</h3>
+                <p>Sanitation and disinfection for healthcare centers and hospitals.</p>
+            </div>
+            <div class="service-box">
+                <h3>Post-Construction Cleaning</h3>
+                <p>Thorough cleaning to remove debris and dust after construction projects.</p>
+            </div>
+            <div class="service-box">
+                <h3>Carpet & Floor Cleaning</h3>
+                <p>Deep cleaning for carpets, tiles, and hard floors.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: Clarkspremiumcleaning@outlook.com</p>
+        <p>Phone: (520) 906-0961</p>
+        <p>Location: 208 N Main St, Mammoth, AZ 85618</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Clark's Premium Commercial Cleaning. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
